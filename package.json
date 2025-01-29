@@ -1,0 +1,26 @@
+{
+  "name": "logto-social-identity-linking",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/bun": "latest",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.1",
+    "@types/multer": "^1.4.12"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@logto/express": "^3.0.4",
+    "cookie-parser": "^1.4.7",
+    "emphasize": "^7.0.0",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "highlight.js": "^11.11.1",
+    "ky": "^1.7.4",
+    "multer": "^1.4.5-lts.1"
+  }
+}
